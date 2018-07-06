@@ -1,0 +1,15 @@
+(module PPCMOUNTING (layer F.Cu) (tedit 55DDC470)
+  (fp_text reference Z1 (at -12 -50) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PPCMounting (at -16 -52) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -10 6) (end -10 -53) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -10 -53) (end 61 -53) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 61 -53) (end 61 -36) (layer Dwgs.User) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.3) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 -43) (size 6 6) (drill 3.3) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at 46 0) (size 6 6) (drill 3.3) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole circle (at 46 -43) (size 6 6) (drill 3.3) (layers *.Cu *.Mask F.SilkS))
+)
